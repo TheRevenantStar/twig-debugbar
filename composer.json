@@ -1,0 +1,23 @@
+{
+	"name": "dougfelton/twig-debugbar",
+	"type": "library",
+	"description": "A Twig extension to provide access to PHP Debug Bar's rendering functions.",
+	"keywords": ["twig", "extension", "php debug bar"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Doug Felton",
+			"homepage": "http://dougfelton.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"twig/twig": "*",
+		"maximebf/debugbar": "*"
+
+	},
+	"autoload": {
+		"files": ["Extension.php"]
+	},
+	"version": "1.0.0"
+}
