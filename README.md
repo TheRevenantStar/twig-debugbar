@@ -1,6 +1,6 @@
 # Twig Debug Bar
 
-A simple [Twig](https://github.com/fabpot/Twig) extension to provide rendering functions for the [PHP Debug Bar](http://github.com/maximebf/php-debugbar).  This extension loads the StandardDebugBar and provides the functions *dbg_message*, *dbg_renderHead*, and *dbg_render* for Twig.
+A simple [Twig](https://github.com/twigphp/Twig) extension to provide rendering functions for the [PHP Debug Bar](http://github.com/maximebf/php-debugbar).  This extension loads the StandardDebugBar and provides the functions *dbg_message*, *dbg_renderHead*, and *dbg_render* for Twig.
 
 **Requirements:**
 
