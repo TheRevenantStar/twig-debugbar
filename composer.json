@@ -15,8 +15,11 @@
 		"maximebf/debugbar": "^1.15"
 
 	},
+	"replace": {
+    "dougfelton/twig-debugbar":"*",
+		"bearlikelion/twig-debugbar":"*"
+	},
 	"autoload": {
 		"files": ["Extension.php"]
-	},
-	"version": "1.0.0"
+	}
 }
