@@ -19,6 +19,10 @@
     "dougfelton/twig-debugbar":"*",
 		"bearlikelion/twig-debugbar":"*"
 	},
+	"conflicts": {
+    "dougfelton/twig-debugbar":"*",
+		"bearlikelion/twig-debugbar":"*"
+	},
 	"autoload": {
 		"files": ["Extension.php"]
 	}
