@@ -19,7 +19,7 @@
     "dougfelton/twig-debugbar":"*",
 		"bearlikelion/twig-debugbar":"*"
 	},
-	"conflicts": {
+	"conflict": {
     "dougfelton/twig-debugbar":"*",
 		"bearlikelion/twig-debugbar":"*"
 	},
