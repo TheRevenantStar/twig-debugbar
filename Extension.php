@@ -1,6 +1,6 @@
 <?php
 
-namespace Dougfelton\TwigDebugBar;
+namespace smtgr15\TwigDebugBar;
 
 class Extension extends \Twig_Extension
 {
