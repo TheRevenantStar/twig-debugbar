@@ -12,7 +12,9 @@ class Extension extends \Twig_Extension
             $this->renderer->setBaseUrl($assetPath);
         }
     }
-
+    public function getDebugBar(){
+      return $this->debugbar;
+    }
     public function getFunctions()
     {
         return array(
@@ -24,7 +26,7 @@ class Extension extends \Twig_Extension
 
     public function message($text, $label = info)
     {
-        $this->debugbar['messages']->addMessage($text, $label);
+        $this->debugbar["messages"]->addMessage($text, $label);
     }
 
     public function render()
