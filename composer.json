@@ -1,5 +1,5 @@
 {
-	"name": "smtgr14/twig-debugbar",
+	"name": "TheRevenantStar/twig-debugbar",
 	"type": "library",
 	"description": "A Twig extension to provide access to PHP Debug Bar's rendering functions.",
 	"keywords": ["twig", "extension", "php debug bar"],
@@ -17,11 +17,13 @@
 	},
 	"replace": {
     "dougfelton/twig-debugbar":"*",
-		"bearlikelion/twig-debugbar":"*"
+		"bearlikelion/twig-debugbar":"*",
+		"smtgr14/twig-debugbar":"*"
 	},
 	"conflict": {
     "dougfelton/twig-debugbar":"*",
-		"bearlikelion/twig-debugbar":"*"
+		"bearlikelion/twig-debugbar":"*",
+		"smtgr14/twig-debugbar":"*"
 	},
 	"autoload": {
 		"files": ["Extension.php"]
