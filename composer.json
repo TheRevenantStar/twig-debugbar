@@ -1,5 +1,5 @@
 {
-	"name": "TheRevenantStar/twig-debugbar",
+	"name": "the-revenant-star/twig-debugbar",
 	"type": "library",
 	"description": "A Twig extension to provide access to PHP Debug Bar's rendering functions.",
 	"keywords": ["twig", "extension", "php debug bar"],
